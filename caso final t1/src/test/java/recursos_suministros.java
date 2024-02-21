@@ -45,3 +45,13 @@ public class recursos_suministros {
             }
         }
     }
+
+    private static void mostrarEstadisticas(double[] proyeccionAgua, double[] proyeccionAlimentos) {
+        System.out.println("\nEstadísticas de uso de recursos:");
+        System.out.println("Día\tAgua (litros)\tAlimentos (kg)");
+
+        for (int i = 0; i < proyeccionAgua.length; i++) {
+            System.out.println((i + 1) + "\t" + proyeccionAgua[i] + "\t\t" + proyeccionAlimentos[i]);
+        }
+    }
+}
