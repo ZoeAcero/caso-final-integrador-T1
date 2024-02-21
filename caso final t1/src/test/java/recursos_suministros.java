@@ -28,3 +28,20 @@ public class recursos_suministros {
         }
         return proyeccion;
 }
+
+    private static void verificarNivelesSeguros(double[] proyeccionAgua, double[] proyeccionAlimentos) {
+
+        double umbralAgua = 10;
+        double umbralAlimentos = 5;
+
+
+        for (int i = 0; i < proyeccionAgua.length; i++) {
+            if (proyeccionAgua[i] < umbralAgua) {
+                System.out.println("¡Alerta! Nivel de agua bajo el umbral seguro en el día " + (i + 1));
+            }
+
+            if (proyeccionAlimentos[i] < umbralAlimentos) {
+                System.out.println("¡Alerta! Nivel de alimentos bajo el umbral seguro en el día " + (i + 1));
+            }
+        }
+    }
