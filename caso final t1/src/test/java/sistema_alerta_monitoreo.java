@@ -6,9 +6,13 @@ public class sistema_alerta_monitoreo {
 
         System.out.println("Bienvenido al Sistema de Alerta y Monitoreo");
 
-        // Monitoreo constante de variables ambientales
         monitorearVariablesAmbientales();
 
         scanner.close();
     }
+
+    private static void monitorearVariablesAmbientales() {
+        while (true) {
+            double temperatura = generarNumeroAleatorio(10, 40);
+            int nivelCO2 = generarNumeroAleatorio(200, 1000);
 }
