@@ -5,4 +5,8 @@ public class Cronometro_cosmico {
         System.out.println("Bienvenido al Cronómetro Cósmico");
         System.out.println("Ingrese la duración del día en el nuevo planeta (en horas): ");
         double duracionDiaPlaneta = scanner.nextDouble();
-}
+
+        System.out.println("Ingrese la duración del año en el nuevo planeta (en días): ");
+        double duracionAnioPlaneta = scanner.nextDouble();
+
+    }
