@@ -59,5 +59,6 @@ public class ComunicadorInterplanetario {
         return mensajeLimpio.equals(mensajeRevertido);
     }
 
+
 }
 
