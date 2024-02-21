@@ -1,5 +1,18 @@
 import java.util.Scanner;
 public class Cronometro_cosmico {
+
+    private static double convertirTiempo(double tiempoTierra, double duracionDiaPlaneta, double duracionAnioPlaneta) {
+        return tiempoTierra;
+    }
+
+    private static void identificarLimitesDeDatos() {
+    }
+
+    private static void visualizarTiempoEnFormatos(double tiempoPlaneta) {
+    }
+
+
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Bienvenido al Cronómetro Cósmico");
@@ -15,4 +28,13 @@ public class Cronometro_cosmico {
         double tiempoPlaneta = convertirTiempo(tiempoTierra, duracionDiaPlaneta, duracionAnioPlaneta);
         System.out.println("El tiempo equivalente en el nuevo planeta es: " + tiempoPlaneta + " días");
 
+        visualizarTiempoEnFormatos(tiempoPlaneta);
+
+        identificarLimitesDeDatos();
+
+        scanner.close();
     }
+
+
+
+}
