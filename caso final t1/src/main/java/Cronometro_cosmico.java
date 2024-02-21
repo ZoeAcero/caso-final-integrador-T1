@@ -34,7 +34,9 @@ public class Cronometro_cosmico {
 
     }
 
+    private static void identificarLimitesDeDatos() {
 
+    }
 
 
 }
