@@ -12,4 +12,7 @@ public class Cronometro_cosmico {
         System.out.println("Ingrese el tiempo en la Tierra (en días): ");
         double tiempoTierra = scanner.nextDouble();
 
+        double tiempoPlaneta = convertirTiempo(tiempoTierra, duracionDiaPlaneta, duracionAnioPlaneta);
+        System.out.println("El tiempo equivalente en el nuevo planeta es: " + tiempoPlaneta + " días");
+
     }
