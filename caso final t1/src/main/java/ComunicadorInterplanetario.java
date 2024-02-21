@@ -58,5 +58,6 @@ public class ComunicadorInterplanetario {
         String mensajeRevertido = new StringBuilder(mensajeLimpio).reverse().toString();
         return mensajeLimpio.equals(mensajeRevertido);
     }
+
 }
 
