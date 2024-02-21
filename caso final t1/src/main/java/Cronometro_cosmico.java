@@ -1,17 +1,6 @@
 import java.util.Scanner;
 public class Cronometro_cosmico {
 
-    private static double convertirTiempo(double tiempoTierra, double duracionDiaPlaneta, double duracionAnioPlaneta) {
-        return tiempoTierra;
-    }
-
-    private static void identificarLimitesDeDatos() {
-    }
-
-    private static void visualizarTiempoEnFormatos(double tiempoPlaneta) {
-    }
-
-
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -35,6 +24,14 @@ public class Cronometro_cosmico {
         scanner.close();
     }
 
+    private static double convertirTiempo(double tiempoTierra, double duracionDiaPlaneta, double duracionAnioPlaneta) {
+        double tiempoPlaneta = tiempoTierra * (duracionAnioPlaneta / 365) * duracionDiaPlaneta;
+        return tiempoPlaneta;
+    }
+
+    private static void visualizarTiempoEnFormatos(double tiempoPlaneta) {
+
+    }
 
 
 }
