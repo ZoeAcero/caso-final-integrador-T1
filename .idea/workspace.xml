@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c459eaf1-27ca-4c19-ad33-816603dd9f02" name="Changes" comment="nuevo">
-      <change afterPath="$PROJECT_DIR$/caso final t1/src/test/java/Cronometro_cosmico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caso final t1/src/test/java/planificador_tareas.java" afterDir="false" />
-    </list>
+    <list default="true" id="c459eaf1-27ca-4c19-ad33-816603dd9f02" name="Changes" comment="nuevo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +52,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Cronometro_cosmico.executor": "Run",
+    "Application.PlanificadorTareas.executor": "Run",
     "Application.recursos_suministros.executor": "Run",
     "Application.sistema_alerta_monitoreo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -94,7 +92,7 @@
       <workItem from="1708508837876" duration="373000" />
       <workItem from="1708509406141" duration="2076000" />
       <workItem from="1708511501771" duration="64000" />
-      <workItem from="1708511577346" duration="1132000" />
+      <workItem from="1708511577346" duration="1404000" />
     </task>
     <task id="LOCAL-00001" summary="nuevo">
       <option name="closed" value="true" />
@@ -264,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708512486955</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="nuevo">
+      <option name="closed" value="true" />
+      <created>1708512808106</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1708512808106</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
